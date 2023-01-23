@@ -100,7 +100,7 @@ public class Account {
             calcSavingDeposit(amount);
             System.out.println("New saving Account balance: " + moneyFormat.format(savingBalance));
         } else {
-            System.out.println("Balance csnnot be negative. " + "\n");
+            System.out.println("Balance cannot be negative. " + "\n");
         }
 
 }
